@@ -1,0 +1,104 @@
+body {
+    background-image: url('webBackground.jpg');
+    background-repeat: repeat;
+}
+.websiteHeader {
+    padding: 5%;
+    text-align: center;
+    background: #1abc9c;
+    border-radius: 2%;
+    color: white;
+}
+.websiteHeader h1 {
+    font-size: 300%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1));
+}
+.websiteHeader p {
+    font-size: 150%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 1));
+}
+
+.disciplineBody {
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+    background: #9cbc1a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 2%;
+    color: white;
+    margin-top: 2%;
+    float: left;
+}
+
+.SoftwareEngineeringHeader {
+    padding: 2%;
+    text-align: center;
+    background: #61759d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 2%;
+    color: white;
+    margin-top: 40%;
+}
+
+.SEBody1 {
+    padding: 2%;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    width: 45%;
+    background: #ceaf6e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 2%;
+    color: white;
+    margin-top: 2%;
+}
+
+.SEBody2 {
+    padding: 2%;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+    width: 45%;
+    background: #6c49b7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 2%;
+    color: white;
+    margin-top: 12%;
+}
+
+.compImage {
+    border-radius: 2%;
+    float: right;
+    margin-top: 2%;
+    height: 36.2%;
+    width: 36.2%;
+}
+
+.collegeImage {
+    border-radius: 2%;
+    float: right;
+    margin-top: 8%;
+    height: 35%;
+    width: 35%;
+}
+
+.nameImage {
+    border-radius: 2%;
+    margin-top: 35%;
+}
+
+.salaryImage {
+    border-radius: 2%;
+    float: left;
+    margin-top: 8%;
+}
+
+.disciplineBody h2 {
+    font-size: 150%;
+    color:white;
+}
+.disciplineBody p {
+    font-size: 120%
+}
